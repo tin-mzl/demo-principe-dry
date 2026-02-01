@@ -15,8 +15,9 @@ print(5*10)
 #l'automatisation de la tache
 def table_de_multiplication(n):
     for i  in range(0,11):
-        print(i*n)
+        print(f"{n} x {i} = {i*n}")
     return i * n
 #On cree une variable number pour demander a l'utilisateur quel table de multiplication il veut
 num = int(input("veillez saisir un nombre: "))
+
 table_de_multiplication(num)
